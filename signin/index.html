@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,23 +15,40 @@
                 <form action="" method="post">
                     <fieldset>
                         <label for="email">Email address</label>
-                        <input type="email" name="email" id="email">
+                        <input placeholder="Enter your email" type="email" id="email">
                     </fieldset>
                     <fieldset>
                         <div class="title-wrapper">
                             <label for="password">Password</label>
                             <a href="">forgot password</a>
                         </div>
-                        <input type="password" name="password" id="password">
+                        <input placeholder="Enter your password" type="password" id="password">
                     </fieldset>
-                    <fieldset>
+                    <fieldset class="checkbox">
                         <input type="checkbox" name="checkbox" id="checkbox">
                         <label for="remember">Remember for 30 days</label>
                     </fieldset>
                     <button type="submit">Login</button>
                 </form>
+                <!-- .divider>.line+p+line -->
+                
+                <div class="divider">
+                    <div class="line"></div>
+                    <p>Or</p>
+                    <div class="line"></div>
+                </div>
+            <div class="sso-container">
+                <button> <!-- button>img+p -->
+                    <img src="../assets/icons/google-logo.svg" alt="logo da google">
+                    <p>Sign in with Google</p>
+                </button>
+                <button>
+                    <img src="../assets/icons/apple-logo.svg" alt="logo da apple">
+                    <p>Sign in with Apple</p>
+                </button>
             </div>
-
+            <p class="redirect-sign-up">Don't have any account? <a>Sign Up</a></p>
+            </div>
         </section>
         <img src="../assets/imgs/costela-de-adao.png" alt="foto de uma planta costela-de-adao">
     </main>
