@@ -1,8 +1,6 @@
-@import url("../signup/styles/global.css");
 
 main {
     width: 100vw;
-    height: 100vh;
     display: flex;
 }
 
@@ -77,7 +75,7 @@ label{
     color: var(--black);   
 }
 
-input[type="password"], input[type="email"], input[type="text"]{
+input[type="password"], input[type="email"]{
     border: 1px solid var(--gray);
     border-radius: 10px;
     padding: 8.5px 10px;
@@ -143,14 +141,14 @@ a {
     font-size: 12px;
 }
 
-.redirect-sign-in {
+.redirect-sign-up {
     font-size: 14px !important;
     color: var(--black);
     justify-self: center;
     margin-top: 22px;
 }
 
-.redirect-sign-in a {
+.redirect-sign-up a {
     font-size: 14px;
     color: var(--blue);
 }
